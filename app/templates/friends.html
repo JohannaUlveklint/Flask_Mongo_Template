@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block content %}
+    </ul>
+        {% for name in friends_list %}
+        <li>{{ name }}</li>
+        {% endfor %}
+    </ul>
+{% endblock %}
+
+{% block footer %}
+    <p>This is the friends page</p>
+{% endblock %}
